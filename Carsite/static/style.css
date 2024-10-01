@@ -1,0 +1,131 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #d4af37 !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d4af37 !important;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("/static/images/backdp.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Hero Text Styles */
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+/* Car Showcase Section */
+.car-showcase {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+}
+
+.car-showcase h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* Car Card Styles */
+.car-card {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.car-card:hover {
+    transform: translateY(-5px);
+}
+
+.car-card .car-image img {
+    object-fit: cover;
+    height: 250px;
+}
+
+/* Car Details */
+.car-specs {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #d4af37;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #b8960c;
+}
+
+/* Add Car Button in Navbar */
+.btn-outline-light {
+    border-color: #d4af37;
+    color: #d4af37;
+}
+
+.btn-outline-light:hover {
+    background-color: #d4af37;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .car-showcase h2 {
+        font-size: 28px;
+    }
+}
